@@ -1,5 +1,7 @@
 {
-    "installCommand": "npm install --legacy-peer-deps",
+    "framework": "nextjs",
+    "installCommand": "npm install --force",
+    "buildCommand": "next build",
     "crons": [
         {
             "path": "/api/fetch-news",
